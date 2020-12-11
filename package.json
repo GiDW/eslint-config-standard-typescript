@@ -1,0 +1,57 @@
+{
+  "name": "@gidw/eslint-config-standard-typescript",
+  "version": "1.0.0",
+  "description": "JavaScript Standard Style - ESLint Shareable Config",
+  "author": "Gilles De Waele",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "JavaScript Standard Style",
+    "check",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "enforce",
+    "hint",
+    "jscs",
+    "jshint",
+    "lint",
+    "policy",
+    "quality",
+    "simple",
+    "standard",
+    "standard style",
+    "style",
+    "style checker",
+    "style linter",
+    "verify",
+    "typescript"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "@gidw/eslint-config-standard": "16.0.2",
+    "@typescript-eslint/parser": "^4.9.1"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.9.1",
+    "eslint": ">= 7",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "typescript": ">=3.9"
+  },
+  "devDependencies": {
+    "@gidw/eslint-config-standard-node": "^16.0.2",
+    "eslint": "^7.15.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-node": "^11.1.0"
+  },
+  "repository": "gitlab:gidw/eslint-config-standard-typescript.git",
+  "scripts": {
+    "lint": "eslint index.js"
+  }
+}
