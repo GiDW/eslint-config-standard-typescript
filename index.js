@@ -1,5 +1,6 @@
 module.exports = {
   extends: '@gidw/eslint-config-standard',
+  parser: '@typescript-eslint/parser',
   plugins: [
     '@typescript-eslint'
   ],
