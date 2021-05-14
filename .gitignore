@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/linux,macos,windows,webstorm,visualstudiocode,node
-# Edit at https://www.toptal.com/developers/gitignore?templates=linux,macos,windows,webstorm,visualstudiocode,node
+# Created by https://www.toptal.com/developers/gitignore/api/node,linux,macos,windows,webstorm,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=node,linux,macos,windows,webstorm,visualstudiocode
 
 ### Linux ###
 *~
@@ -102,6 +102,9 @@ typings/
 # Optional eslint cache
 .eslintcache
 
+# Optional stylelint cache
+.stylelintcache
+
 # Microbundle cache
 .rpt2_cache/
 .rts2_cache_cjs/
@@ -133,6 +136,14 @@ typings/
 .nuxt
 dist
 
+# Storybook build outputs
+.out
+.storybook-out
+storybook-static
+
+# rollup.js default build output
+dist/
+
 # Gatsby files
 .cache/
 # Comment in the public line in if your project uses Gatsby and not Next.js
@@ -157,10 +168,16 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
+# Temporary folders
+tmp/
+temp/
+
 ### VisualStudioCode ###
 .vscode/*
+!.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
+!.vscode/extensions.json
 *.code-workspace
 
 ### VisualStudioCode Patch ###
@@ -297,4 +314,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/linux,macos,windows,webstorm,visualstudiocode,node
+# End of https://www.toptal.com/developers/gitignore/api/node,linux,macos,windows,webstorm,visualstudiocode
