@@ -1,6 +1,6 @@
 {
   "name": "@gidw/eslint-config-standard-typescript",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "JavaScript Standard Style - ESLint Shareable Config",
   "author": "Gilles De Waele",
   "license": "MIT",
