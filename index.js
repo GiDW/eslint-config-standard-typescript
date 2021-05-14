@@ -284,18 +284,7 @@ module.exports = {
       }
     ],
     '@typescript-eslint/return-await': ['error', 'always'],
-    '@typescript-eslint/strict-boolean-expressions': [
-      'error',
-      {
-        allowString: false,
-        allowNumber: false,
-        allowNullableObject: false,
-        allowNullableBoolean: false,
-        allowNullableString: false,
-        allowNullableNumber: false,
-        allowAny: false
-      }
-    ],
+    '@typescript-eslint/strict-boolean-expressions': 'error',
     '@typescript-eslint/triple-slash-reference': [
       'error',
       {
