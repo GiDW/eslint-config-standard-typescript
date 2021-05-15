@@ -37,11 +37,11 @@
     "@typescript-eslint/parser": "^4.23.0"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/eslint-plugin": ">= 4",
     "eslint": ">= 7",
-    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-import": ">= 2.22",
     "eslint-plugin-promise": ">= 4.2",
-    "typescript": ">= 3.9"
+    "typescript": ">= 3"
   },
   "devDependencies": {
     "@gidw/eslint-config-standard-node": "^1.0.0",
