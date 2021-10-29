@@ -47,7 +47,7 @@
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-node": "^11.1.0"
   },
-  "repository": "gitlab:gidw/eslint-config-standard-typescript.git",
+  "repository": "github:gidw/eslint-config-standard-typescript.git",
   "scripts": {
     "lint": "eslint index.js"
   }
