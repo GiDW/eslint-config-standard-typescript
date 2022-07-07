@@ -1,9 +1,7 @@
 module.exports = {
-  extends: '@gidw/eslint-config-standard-node',
+  extends: ["@gidw/eslint-config-standard-node", "prettier"],
   env: {
-    node: true
+    node: true,
   },
-  ignorePatterns: [
-    'node_modules/'
-  ]
-}
+  ignorePatterns: ["node_modules/"],
+};

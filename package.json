@@ -33,21 +33,24 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "@gidw/eslint-config-standard": "^1.0.3",
-    "@typescript-eslint/parser": "^5.2.0"
+    "@gidw/eslint-config-standard": "^1.1.0",
+    "@typescript-eslint/parser": "^5.30.5"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">= 4",
     "typescript": ">= 3"
   },
   "devDependencies": {
-    "@gidw/eslint-config-standard-node": "^1.0.3",
-    "eslint": "^8.1.0",
-    "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-node": "^11.1.0"
+    "@gidw/eslint-config-standard-node": "^1.1.0",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "prettier": "^2.7.1"
   },
   "repository": "github:gidw/eslint-config-standard-typescript.git",
   "scripts": {
-    "lint": "eslint index.js"
+    "lint": "eslint --ext .js,.cjs,.mjs,.jsx,.ts,.cts,.mts,.tsx .",
+    "prettier": "prettier -w ."
   }
 }
