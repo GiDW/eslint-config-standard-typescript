@@ -33,7 +33,7 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "@gidw/eslint-config-standard": "^1.1.0",
+    "@gidw/eslint-config-standard": "^1.1.1",
     "@typescript-eslint/parser": "^5.30.5"
   },
   "peerDependencies": {
@@ -41,7 +41,7 @@
     "typescript": ">= 3"
   },
   "devDependencies": {
-    "@gidw/eslint-config-standard-node": "^1.1.0",
+    "@gidw/eslint-config-standard-node": "^1.1.1",
     "eslint": "^8.19.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
