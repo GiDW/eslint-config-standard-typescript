@@ -16,6 +16,9 @@ module.exports = {
     "lines-between-class-members": "off",
     "no-array-constructor": "off",
     "no-dupe-class-members": "off",
+    "no-empty-function": "off",
+    "no-extra-semi": "off",
+    "no-loss-of-precision": "off",
     "no-redeclare": "off",
     "no-throw-literal": "off",
     "no-unused-expressions": "off",
@@ -113,6 +116,9 @@ module.exports = {
     ],
     "@typescript-eslint/no-array-constructor": "error",
     "@typescript-eslint/no-dupe-class-members": "error",
+    "@typescript-eslint/no-empty-function": "error",
+    "@typescript-eslint/no-extra-semi": "error",
+    "@typescript-eslint/no-loss-of-precision": "error",
     "@typescript-eslint/no-redeclare": [
       "error",
       {
@@ -169,6 +175,8 @@ module.exports = {
         default: "array-simple",
       },
     ],
+    "@typescript-eslint/ban-ts-comment": "error",
+    "@typescript-eslint/ban-types": "error",
     "@typescript-eslint/consistent-type-assertions": [
       "error",
       {
@@ -227,6 +235,7 @@ module.exports = {
     "@typescript-eslint/no-floating-promises": "error",
     "@typescript-eslint/no-for-in-array": "error",
     "@typescript-eslint/no-implied-eval": "error",
+    "@typescript-eslint/no-inferrable-types": "error",
     "@typescript-eslint/no-invalid-void-type": "error",
     "@typescript-eslint/no-misused-new": "error",
     "@typescript-eslint/no-misused-promises": "error",
@@ -241,9 +250,12 @@ module.exports = {
     ],
     "@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
     "@typescript-eslint/no-unnecessary-type-assertion": "error",
+    "@typescript-eslint/no-unnecessary-type-constraint": "error",
     "@typescript-eslint/no-var-requires": "error",
+    "@typescript-eslint/prefer-as-const": "error",
     "@typescript-eslint/prefer-function-type": "error",
     "@typescript-eslint/prefer-includes": "error",
+    "@typescript-eslint/prefer-namespace-keyword": "error",
     "@typescript-eslint/prefer-nullish-coalescing": [
       "error",
       {
