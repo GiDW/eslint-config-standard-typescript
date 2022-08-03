@@ -8,7 +8,7 @@ Add to your `eslintrc`
 
 ```json
 {
-  "extends": "@gidw/eslint-config-standard-typescript"
+    "extends": "@gidw/eslint-config-standard-typescript"
 }
 ```
 
@@ -16,9 +16,9 @@ Add to your `eslintrc`
 
 ```json
 {
-  "extends": [
-    "@gidw/eslint-config-standard-node",
-    "@gidw/eslint-config-standard-typescript"
-  ]
+    "extends": [
+        "@gidw/eslint-config-standard-node",
+        "@gidw/eslint-config-standard-typescript"
+    ]
 }
 ```
