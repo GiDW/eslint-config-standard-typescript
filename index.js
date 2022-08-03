@@ -2,36 +2,47 @@ module.exports = {
   extends: "@gidw/eslint-config-standard",
   parser: "@typescript-eslint/parser",
   plugins: ["@typescript-eslint"],
+  overrides: [
+    {
+      files: ["*.ts", "*.tsx", "*.mts", "*.cts"],
+      rules: {
+        // TypeScript has this by default
+        "no-undef": "off",
+
+        // Rules replaced by @typescript-eslint versions
+        "brace-style": "off",
+        "comma-spacing": "off",
+        "dot-notation": "off",
+        "func-call-spacing": "off",
+        indent: "off",
+        "keyword-spacing": "off",
+        "lines-between-class-members": "off",
+        "no-array-constructor": "off",
+        "no-dupe-class-members": "off",
+        "no-empty-function": "off",
+        "no-extra-semi": "off",
+        "no-loss-of-precision": "off",
+        "no-redeclare": "off",
+        "no-throw-literal": "off",
+        "no-unused-expressions": "off",
+        "no-unused-vars": "off",
+        "no-useless-constructor": "off",
+        quotes: "off",
+        semi: "off",
+        "space-before-function-paren": "off",
+
+        camelcase: "off",
+        "default-param-last": "off",
+        "no-use-before-define": "off",
+
+        "import/named": "off",
+        "import/namespace": "off",
+        "import/default": "off",
+        "import/no-named-as-default-member": "off",
+      },
+    },
+  ],
   rules: {
-    // TypeScript has this by default
-    "no-undef": "off",
-
-    // Rules replaced by @typescript-eslint versions
-    "brace-style": "off",
-    "comma-spacing": "off",
-    "dot-notation": "off",
-    "func-call-spacing": "off",
-    indent: "off",
-    "keyword-spacing": "off",
-    "lines-between-class-members": "off",
-    "no-array-constructor": "off",
-    "no-dupe-class-members": "off",
-    "no-empty-function": "off",
-    "no-extra-semi": "off",
-    "no-loss-of-precision": "off",
-    "no-redeclare": "off",
-    "no-throw-literal": "off",
-    "no-unused-expressions": "off",
-    "no-unused-vars": "off",
-    "no-useless-constructor": "off",
-    quotes: "off",
-    semi: "off",
-    "space-before-function-paren": "off",
-
-    camelcase: "off",
-    "default-param-last": "off",
-    "no-use-before-define": "off",
-
     // @typescript-eslint versions
     "@typescript-eslint/brace-style": [
       "error",
